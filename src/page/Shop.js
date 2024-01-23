@@ -1,0 +1,318 @@
+export default function Header() {
+    return (
+        <>
+            <nav className="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+<div className="container">
+    <a className="navbar-brand"  href="/">แพลอยน้ำ</a>
+
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+    </button>
+
+    <div className="collapse navbar-collapse" id="navbarsFurni">
+        <ul className="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item ">
+                <a className="nav-link" href="/">หน้าแรก</a>
+            </li>
+            <li className="active"><a className="nav-link" href="Shop">สินค้า</a></li>
+            <li><a className="nav-link" href="About">เกี่ยวกับเรา</a></li>
+            <li><a className="nav-link" href="services.html">แจ้งปัญหา</a></li>
+            <li><a className="nav-link" href="blog.html">ผลงานของเรา</a></li>
+            <li><a className="nav-link" href="contact.html">ติดต่อเรา</a></li>
+        </ul>
+
+        <ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+            <li><a className="nav-link" href="#"><img src="images/user.svg"/></a></li>
+            <li><a className="nav-link" href="cart.html"><img src="images/cart.svg"/></a></li>
+        </ul>
+    </div>
+</div>
+
+</nav>
+
+            <div class="hero bg-secodary bg-gradient">
+                <div class="container">
+                    <div class="row justify-content-between ">
+                        <div class="col-lg-5">
+                            <div class="intro-excerpt">
+                                <h1>ถังฉีดพียูโฟม</h1>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* <!-- End Hero Section --> */}
+
+
+
+            <div class="untree_co-section product-section before-footer-section">
+                <div class="container">
+                    <div class="row">
+
+                        {/* <!-- Start Column 1 --> */}
+                        <div class="col-12 col-md-4 col-lg-3 mb-5">
+                            <a class="product-item" href="#">
+                                <img src="images/F1.jpg" class="img-fluid product-thumbnail" style={{ borderRadius: "15px"}} />
+                                <h3 class="product-title">ถังมือสอง แบบ1ขอบ (บน)</h3>
+                                <p className="bg-danger text-white" style={{ borderRadius: "6px"}}>***สำคัญ สอบถามก่อนสั่งซื้อทุกครั้ง</p>
+                                <strong class="product-price">1,550</strong>
+
+                                <span class="icon-cross">
+                                    <img src="images/cross.svg" class="img-fluid" />
+                                </span>
+                            </a>
+                        </div>
+                        {/* <!-- End Column 1 -->
+						
+					<!-- Start Column 2 --> */}
+                        <div class="col-12 col-md-4 col-lg-3 mb-5">
+                            <a class="product-item" href="#">
+                                <img src="images/โฟมมือ2.jpg" class="img-fluid product-thumbnail" style={{ borderRadius: "15px"}} />
+                                <h3 class="product-title">ถังมือสอง แบบ2ขอบ (บน/ล่าง)</h3>
+                                <p className="bg-danger text-white" style={{ borderRadius: "6px"}}>***สำคัญ สอบถามก่อนสั่งซื้อทุกครั้ง</p>
+                                <strong class="product-price">1,600</strong>
+
+                                <span class="icon-cross">
+                                    <img src="images/cross.svg" class="img-fluid" />
+                                </span>
+                            </a>
+                        </div>
+                        {/* <!-- End Column 2 -->
+
+					<!-- Start Column 3 --> */}
+                        <div class="col-12 col-md-4 col-lg-3 mb-5">
+                            <a class="product-item" href="#">
+                                <img src="images/tnnew.jpg" class="img-fluid product-thumbnail" style={{ borderRadius: "15px"}} />
+                                <h3 class="product-title">ถังฉีดโฟมมือ1</h3>
+                                <p className="bg-danger text-white" style={{ borderRadius: "6px"}}>***สำคัญ สอบถามก่อนสั่งซื้อทุกครั้ง</p>
+                                <strong class="product-price">2,100</strong>
+
+                                <span class="icon-cross">
+                                    <img src="images/cross.svg" class="img-fluid" />
+                                </span>
+                            </a>
+                        </div>
+                        {/* {/* <!-- End Column 3 --> */}
+
+
+					{/* <!-- Start Column 4 --> */}
+                        <div class="col-12 col-md-4 col-lg-3 mb-5">
+                            <a class="product-item" href="#">
+                                <img src="images/ถังโฟมแก้.png" class="img-fluid product-thumbnail" />
+                                <h3 class="product-title"> </h3>
+                                <strong class="product-price"></strong>
+
+                                <span class="icon-cross">
+                                    <img src="images/cross.svg" class="img-fluid" />
+                                </span>
+                            </a>
+                        </div>
+                        {/* {/* <!-- End Column 4 --> */}
+
+                    <p className="bg-secondary bg-gradient text-dark">***หมายเหตุ อัตตราค่าบริการจัดส่งขึ้นอยู่กับระยะทางที่ลูกค้าต้องการจัดส่ง ลูกค้าสามารถมารับสินค้าเองได้ ที่คลังสินค้าของเรา</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero bg-secodary bg-gradient">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-5 ">
+                            <div class="intro-excerpt">
+                                <h1>แพลอยน้ำ</h1>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="untree_co-section product-section before-footer-section">
+                <div class="container">
+                    <div class="row">
+
+                    					{/* <!-- Start Column 1 --> */}
+                        <div class="col-12 col-md-4 col-lg-3 mb-5">
+                            <a class="product-item" href="#">
+                                <img src="images/แพ1.jpg" class="img-fluid product-thumbnail" style={{ borderRadius: "10px"}} />
+                                <h3 class="product-title">แพลอยน้ำ xxx</h3>
+                                <h3><span>ขนาดตาม สั่งลูกค้า</span></h3>
+                                <button className="btn btn-dark mt-3">สอบถามราคา</button>
+
+                                <span class="icon-cross">
+                                    <img src="images/cross.svg" class="img-fluid" />
+                                </span>
+                            </a>
+                        </div>
+                        {/* {/* <!-- End Column 1 --> */}
+						
+
+                {/* <!-- Start Column 2 --> */} 
+                        <div class="col-12 col-md-4 col-lg-3 mb-5">
+                            <a class="product-item" href="#">
+                                <img src="images/แพ2.jpg" class="img-fluid product-thumbnail" style={{ borderRadius: "10px"}} />
+                                <h3 class="product-title">แพลอยน้ำขนาด 5x5</h3>
+                                <h3><span>สะพาน 8 เมตร มีหลังคา</span></h3>
+                                     <button className="btn btn-dark mt-3">สอบถามราคา</button>
+                                <span class="icon-cross">
+                                    <img src="images/cross.svg" class="img-fluid" />
+                                </span>
+                            </a>
+                        </div>
+                        {/* <!-- End Column 2 -->
+
+					<!-- Start Column 3 --> */}
+                        <div class="col-12 col-md-4 col-lg-3 mb-5">
+                            <a class="product-item" href="#">
+                                <img src="images/แพ-3.jpg" class="img-fluid product-thumbnail" style={{ borderRadius: "10px"}} />
+                                <h3 class="product-title">แพขนาด 4x4</h3>
+                                <h3><span>มีตาข่ายนอนดูดาว สะพาน 5 เมตร</span></h3>
+                                <button className="btn btn-dark mt-3">สอบถามราคา</button>
+
+                                <span class="icon-cross">
+                                    <img src="images/cross.svg" class="img-fluid" />
+                                </span>
+                            </a>
+                        </div>
+                        {/* <!-- End Column 3 --> */}
+
+                        {/* <!-- Start Column 4 --> */}
+                        <div class="col-12 col-md-4 col-lg-3 mb-5">
+                            <a class="product-item" href="#">
+                                <img src="images/แพ4.jpg" class="img-fluid product-thumbnail" style={{ borderRadius: "10px"}} />
+                                <h3 class="product-title">แพลอยน้ำ</h3>
+                                <h3><span>ขนาด ตามสั่งลูกค้า</span></h3>
+                                <button className="btn btn-dark mt-3">สอบถามราคา</button>
+
+                                <span class="icon-cross">
+                                    <img src="images/cross.svg" class="img-fluid" />
+                                </span>
+                            </a>
+                        </div>
+                        {/* <!-- End Column 4 --> */}
+            <p className="bg-secondary bg-gradient text-dark"> ***หมายเหตุ การสร้างแพเราจะนำอุปกรณ์ไปทำที่หน้างาน นอนที่หน้างาน ในเขตพื้นกรุงเทพ**ฟรี**
+                เขตพื้นต่างจังหวัด คิดตามระยะทาง กิโลเมตรล่ะ 15 บาท </p>
+                <p className="bg-warning bg-gradient text-dark mt-5" style={{borderRadius: "6px"}}><i class="fa fa-bullhorn" style={{fontSize:"25px"}}></i> ทางบริษัทของเรา ในการสร้างแพลอยน้ำทุกครั้ง
+                มีการทำสื่อ ทางโซเชียลมิเดีย ไลฟ์สด ขั้นตอนการสร้างทุกขั้นตอน เพื่อให้ลูกค้าเกิดความมั่นใจ ในคุณภาพของงาน และขั้นตอนสุดท้าย
+                เรามีการ บินโดรน สำรวจบนที่สูง ทั้งนี้ถือเป็นการ โปรโหมดสถานที่ให้ ลูกค้าไปในตัว โดยที่ลูกค้าไม่เสียค่าใช้จ่าย
+                สำหรับทำสื่อใดๆ
+                </p>
+
+                    </div>
+                </div>
+            </div>
+
+            {/* Footer */}
+
+            <footer class="footer-section">
+                <div class="container relative">
+                    {/* รูปวงกลมด้านล่าง */}
+                    <div class="sofa-img">
+                        <img src="images/แพบ้าน.jpg" alt="Image" class="img-fluid" style={{ width: "300px", borderRadius: "50%"}} />
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="subscription-form">
+                                <h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid" /></span><span>Subscribe to Newsletter</span></h3>
+
+                                <form action="#" class="row g-3">
+                                    <div class="col-auto">
+                                        <input type="text" class="form-control" placeholder="Enter your name" />
+                                    </div>
+                                    <div class="col-auto">
+                                        <input type="email" class="form-control" placeholder="Enter your email" />
+                                    </div>
+                                    <div class="col-auto">
+                                        <button class="btn btn-primary">
+                                            <span class="fa fa-paper-plane"></span>
+                                        </button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-5 mb-5">
+                        <div class="col-lg-4">
+                            <div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">แพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม<span>.</span></a></div>
+                            <p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
+
+                            <ul class="list-unstyled custom-social">
+                                <li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+                                <li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
+                                <li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
+                                <li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-8">
+                            <div class="row links-wrap">
+                                <div class="col-6 col-sm-6 col-md-3">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">เกี่ยวกับเรา</a></li>
+                                        <li><a href="#">บริการ</a></li>
+                                        <li><a href="#">ผลงาน</a></li>
+                                        <li><a href="#">ติดต่อเรา</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-6 col-sm-6 col-md-3">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">ช่วยเหลือ</a></li>
+                                        <li><a href="#">....</a></li>
+                                        <li><a href="#">Live chat</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-6 col-sm-6 col-md-3">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">งานของเรา</a></li>
+                                        <li><a href="#">ทีมงาน</a></li>
+                                        <li><a href="#">สินค้า</a></li>
+                                        <li><a href="#">ข้อตกลง เงื่อนไข</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-6 col-sm-6 col-md-3">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">ฉีดโฟมทุ่นลอยน้ำ</a></li>
+                                        <li><a href="#">แพลอยน้ำ</a></li>
+                                        <li><a href="#">จำหน่ายถังโฟม</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="border-top copyright">
+                        <div class="row pt-4">
+                            <div class="col-lg-6">
+                                <p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; บริษัท ธนะบอมฐ์ คอนทรัคชั่น จำกัด <a href="#">แพลอยน้ำ.com</a><a hreff="#"></a>
+                                </p>
+                            </div>
+
+                            <div class="col-lg-6 text-center text-lg-end">
+                                <ul class="list-unstyled d-inline-flex ms-auto">
+                                    <li class="me-4"><a href="#">ทีมงาน &amp; ปรึกษาปัญหา</a></li>
+                                    <li><a href="#">เงื่อนไขและบริการ</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </footer>
+        </>
+    )
+}
