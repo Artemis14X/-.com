@@ -18,13 +18,13 @@ function Nevbar() {
                             <li><a className="nav-link" href="Shop">สินค้า</a></li>
                             <li><a className="nav-link" href="About">เกี่ยวกับเรา</a></li>
                             <li><a className="nav-link" href="services.html">แจ้งปัญหา</a></li>
-                            <li><a className="nav-link" href="blog.html">ผลงานของเรา</a></li>
-                            <li><a className="nav-link" href="contact.html">ติดต่อเรา</a></li>
+                            <li><a className="nav-link" href="/Blog">ผลงานของเรา</a></li>
+                            <li><a className="nav-link" href="Contact">ติดต่อเรา</a></li>
                         </ul>
 
                         <ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
                             <li><a className="nav-link" href="#"><img src="images/user.svg"/></a></li>
-                            <li><a className="nav-link" href="cart.html"><img src="images/cart.svg"/></a></li>
+                            <li><a className="nav-link" href="/Cart"><img src="images/cart.svg"/></a></li>
                         </ul>
                     </div>
                 </div>

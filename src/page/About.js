@@ -3,48 +3,48 @@ export default function Header() {
         <>
             <nav className="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
 
-                <div className="container">
-                    <a className="navbar-brand" href="/">แพลอยน้ำ</a>
+<div className="container">
+    <a className="navbar-brand"  href="/">แพลอยน้ำ</a>
 
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+    </button>
 
-                    <div className="collapse navbar-collapse" id="navbarsFurni">
-                        <ul className="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-                            <li class="nav-item ">
-                                <a className="nav-link" href="/">หน้าแรก</a>
-                            </li>
-                            <li><a className="nav-link" href="Shop">สินค้า</a></li>
-                            <li className="active"><a className="nav-link" href="About">เกี่ยวกับเรา</a></li>
-                            <li><a className="nav-link" href="services.html">แจ้งปัญหา</a></li>
-                            <li><a className="nav-link" href="blog.html">ผลงานของเรา</a></li>
-                            <li><a className="nav-link" href="contact.html">ติดต่อเรา</a></li>
-                        </ul>
+    <div className="collapse navbar-collapse" id="navbarsFurni">
+        <ul className="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+            <li className="nav-item ">
+                <a className="nav-link" href="/">หน้าแรก</a>
+            </li>
+            <li><a className="nav-link" href="Shop">สินค้า</a></li>
+            <li className="active"><a className="nav-link" href="About">เกี่ยวกับเรา</a></li>
+            <li><a className="nav-link" href="services.html">แจ้งปัญหา</a></li>
+            <li><a className="nav-link" href="/Blog">ผลงานของเรา</a></li>
+            <li><a className="nav-link" href="Contact">ติดต่อเรา</a></li>
+        </ul>
 
-                        <ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-                            <li><a className="nav-link" href="#"><img src="images/user.svg" /></a></li>
-                            <li><a className="nav-link" href="cart.html"><img src="images/cart.svg" /></a></li>
-                        </ul>
-                    </div>
-                </div>
+        <ul className="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+            <li><a className="nav-link" href="#"><img src="images/user.svg"/></a></li>
+            <li><a className="nav-link" href="/Cart"><img src="images/cart.svg"/></a></li>
+        </ul>
+    </div>
+</div>
 
-            </nav>
+</nav>
 
             {/* <!-- Start Hero Section --> */}
-            <div class="hero">
-                <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-5">
-                            <div class="intro-excerpt">
-                                <h1>About Us</h1>
-                                <p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
-                                <p><a href="" class="btn btn-secondary me-2">Shop Now</a><a href="#" class="btn btn-white-outline">Explore</a></p>
+            <div className="hero bg-dark bg-gradient">
+                <div className="container">
+                    <div className="row justify-content-between">
+                        <div className="col-lg-5">
+                            <div className="intro-excerpt">
+                                <h1>เกี่ยวกับเรา</h1>
+                                <p className="mb-4">รับสร้างแพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ จำหน่ายถังฉีดโฟม ทุ่นแพสูบน้ำ ทุ่นลอยน้ำ รับอุดรอยรั่ว ซ่อมแซมแพสูบน้ำ รับซ่อมทุ่นรั่ว ทุ่นแตก ทุ่นชำรุด เสื่อมสภาพป้องกันน้ำเข้าทุ่น แพจม แพเอียง พ่นโฟมหลังคา พ่นโฟมกันร้อน</p>
+                                <p><a href="/Shop" className="btn btn-secondary me-2">สินค้า</a><a href="#" className="btn btn-white-outline">สำรวจ</a></p>
                             </div>
                         </div>
-                        <div class="col-lg-7">
-                            <div class="hero-img-wrap">
-                                <img src="images/couch.png" class="img-fluid" />
+                        <div className="col-lg-7">
+                            <div className="hero-img-wrap">
+                                <img src="images/แพ1.jpg" className="img-fluid mt-4 shadow-lg p-2 mb-5 bg-body rounded" style={{ height:"400px", borderRadius: "30px"}}/>
                             </div>
                         </div>
                     </div>
@@ -52,124 +52,150 @@ export default function Header() {
             </div>
             {/* <!-- End Hero Section --> */}
 
-            <div class="why-choose-section">
-                <div class="container">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-lg-6">
-                            <h2 class="section-title">Why Choose Us</h2>
-                            <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+            <div className="why-choose-section">
+                <div className="container">
+                    <div className="row justify-content-between ">
+                        <div className="col-lg-6 shadow p-3 mb-5 bg-body rounded">
+                            <h2 className="section-title"><strong>จำหน่ายถังโฟม</strong></h2>
+                            <p>เรามีบริการจัดส่ง และซื้อขายหน้าร้าน สำหรับลูกค้าที่มีถังเก่า สามารถเรียกเราไปฉีดใส่ถังเก่าได้</p>
 
-                            <div class="row my-5">
-                                <div class="col-6 col-md-6">
-                                    <div class="feature">
-                                        <div class="icon">
-                                            <img src="images/truck.svg" alt="Image" class="imf-fluid" />
+                            <div className="row my-5">
+                                <div className="col-6 col-md-6">
+                                    <div className="feature">
+                                        <div className="icon">
+                                            <img src="images/truck.svg" alt="Image" className="imf-fluid" />
                                         </div>
-                                        <h3>Fast &amp; Free Shipping</h3>
-                                        <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+                                        <h3  style={{borderRadius: "10px" ,}} > <strong>จัดส่งเร็วถึงหน้าบ้าน</strong></h3>
+                                        <p>จัดส่งรวดเร็ว รอบรับได้ที่หน้าบ้าน ค่าบริการตามระยะทาง ลูกค้าสามารภมารับเองที่โกดังของเราก็ได้เช่นกัน</p>
                                     </div>
                                 </div>
 
-                                <div class="col-6 col-md-6">
-                                    <div class="feature">
-                                        <div class="icon">
-                                            <img src="images/bag.svg" alt="Image" class="imf-fluid" />
+                                <div className="col-6 col-md-6">
+                                    <div className="feature">
+                                        <div className="icon">
+                                            <img src="images/bag.svg" alt="Image" className="imf-fluid" />
                                         </div>
-                                        <h3>Easy to Shop</h3>
-                                        <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+                                        <h3><strong>ซื้อขายง่าย ออกใบกำกับภาษี</strong></h3>
+                                        <p>เรารับทั้งลูกค้า ธรรมดา และ นิติบุคคล สามารถขอ ออกใบกำกับภาษีได้</p>
                                     </div>
                                 </div>
 
-                                <div class="col-6 col-md-6">
-                                    <div class="feature">
-                                        <div class="icon">
-                                            <img src="images/support.svg" alt="Image" class="imf-fluid" />
+                                <div className="col-6 col-md-6">
+                                    <div className="feature">
+                                        <div className="icon">
+                                            <img src="images/support.svg" alt="Image" className="imf-fluid" />
                                         </div>
-                                        <h3>24/7 Support</h3>
-                                        <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+                                        <h3><strong>สอบถาม ปรึกษาปัญหา</strong></h3>
+                                        <p>สามารถติดต่อเข้ามาสอบถาม การคำณวนราคา และคุณสมบัติ ของวัสดุที่ใช้</p>
                                     </div>
                                 </div>
 
-                                <div class="col-6 col-md-6">
-                                    <div class="feature">
-                                        <div class="icon">
-                                            <img src="images/return.svg" alt="Image" class="imf-fluid" />
+                                <div className="col-6 col-md-6">
+                                    <div className="feature">
+                                        <div className="icon">
+                                            <img src="images/return.svg" alt="Image" className="imf-fluid" />
                                         </div>
-                                        <h3>Hassle Free Returns</h3>
-                                        <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
+                                        <h3><strong>สามารถซื้อขายแบบตัวต่อตัว</strong></h3>
+                                        <p>สามารโทรติดต่อซื้อขายตัวต่อตัว และรับของที่บริษัทได้เลย</p>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
 
-                        <div class="col-lg-5">
-                            <div class="img-wrap">
-                                <img src="images/why-choose-us-img.jpg" alt="Image" class="img-fluid" />
+                        <div className="col-lg-5">
+                            <div className="img-wrap" style={{ width: "100%"}}>
+                                <img src="images/ถังโฟมแก้.png" alt="Image" className="img-fluid" />
                             </div>
                         </div>
 
                     </div>
                 </div>
             </div>
+
+            <div className="we-help-section">
+                <div className="container">
+                    <div className="row justify-content-between">
+                        <div className="col-lg-7 mb-5 mb-lg-0">
+                            <div className="imgs-grid">
+                                <div className="grid grid-1"><img src="images/ฉนวน.png" alt="Untree.co" /></div>
+                                <div className="grid grid-2"><img src="images/โปรสเตอร์พ่น.png" alt="Untree.co" /></div>
+                                <div className="grid grid-3"><img src="images/posterFom.png" alt="Untree.co" /></div>
+                            </div>
+                        </div>
+                        <div className="col-lg-5 ps-lg-5 shadow p-3 mb-5 bg-body bg-gradient rounded ">
+                            <h2 className="section-title mb-4"><strong>รับพ่นโฟม หลังคา กำแพงผนัง ใต้ถุน ช่องชาร์ป</strong></h2>
+                            <p>รับพ่นโฟมหลังคา กันความร้อน เก็บเสียง ตามขนาดที่ ท่านต้องการ</p>
+
+                            <ul className="list-unstyled custom-list my-4">
+                                <li>กันลามไฟ</li>
+                                <li>ป้องกันการรั่วซึม</li>
+                                <li>มีความแข็งแรง</li>
+                                <li>กั้กเสียง</li>
+                            </ul>
+                            <p><a herf="#" className="btn">ดูเพิ่มเติม</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             {/* <!-- End Why Choose Us Section -->
 
             <!-- Start Team Section --> */}
-            <div class="untree_co-section">
-                <div class="container">
+            <div className="untree_co-section">
+                <div className="container">
 
-                    <div class="row mb-5">
-                        <div class="col-lg-5 mx-auto text-center">
-                            <h2 class="section-title">Our Team</h2>
+                    <div className="row mb-5">
+                        <div className="col-lg-5 mx-auto text-center">
+                            <h2 className="section-title">ทีมของเรา</h2>
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div className="row">
 
                         {/* <!-- Start Column 1 --> */}
-                        <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-                            <img src="images/person_1.jpg" class="img-fluid mb-5" />
-                                <h3 clas><a href="#"><span class="">Lawson</span> Arnold</a></h3>
-                                <span class="d-block position mb-4">CEO, Founder, Atty.</span>
+                        <div className="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
+                            <img src="images/person_1.jpg" className="img-fluid mb-5" />
+                                <h3 clas><a href="#"><span className="">Lawson</span> Arnold</a></h3>
+                                <span className="d-block position mb-4">CEO, Founder, Atty.</span>
                                 <p>Separated they live in.
                                     Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
+                                <p className="mb-0"><a href="#" className="more dark">Learn More <span className="icon-arrow_forward"></span></a></p>
                         </div>
                         {/* <!-- End Column 1 -->
 
                         <!-- Start Column 2 --> */}
-                        <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-                            <img src="images/person_2.jpg" class="img-fluid mb-5" />
+                        <div className="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
+                            <img src="images/person_2.jpg" className="img-fluid mb-5" />
 
-                                <h3 clas><a href="#"><span class="">Jeremy</span> Walker</a></h3>
-                                <span class="d-block position mb-4">CEO, Founder, Atty.</span>
+                                <h3 clas><a href="#"><span className="">Jeremy</span> Walker</a></h3>
+                                <span className="d-block position mb-4">CEO, Founder, Atty.</span>
                                 <p>Separated they live in.
                                     Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
+                                <p className="mb-0"><a href="#" className="more dark">Learn More <span className="icon-arrow_forward"></span></a></p>
 
                         </div>
                         {/* <!-- End Column 2 -->
 
                         <!-- Start Column 3 --> */}
-                        <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-                            <img src="images/person_3.jpg" class="img-fluid mb-5" />
-                                <h3 clas><a href="#"><span class="">Patrik</span> White</a></h3>
-                                <span class="d-block position mb-4">CEO, Founder, Atty.</span>
+                        <div className="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
+                            <img src="images/person_3.jpg" className="img-fluid mb-5" />
+                                <h3 clas><a href="#"><span className="">Patrik</span> White</a></h3>
+                                <span className="d-block position mb-4">CEO, Founder, Atty.</span>
                                 <p>Separated they live in.
                                     Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
+                                <p className="mb-0"><a href="#" className="more dark">Learn More <span className="icon-arrow_forward"></span></a></p>
                         </div>
                         {/* <!-- End Column 3 -->
 
                         <!-- Start Column 4 --> */}
-                        <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-                            <img src="images/person_4.jpg" class="img-fluid mb-5" />
+                        <div className="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
+                            <img src="images/person_4.jpg" className="img-fluid mb-5" />
 
-                                <h3 clas><a href="#"><span class="">Kathryn</span> Ryan</a></h3>
-                                <span class="d-block position mb-4">CEO, Founder, Atty.</span>
+                                <h3 clas><a href="#"><span className="">Kathryn</span> Ryan</a></h3>
+                                <span className="d-block position mb-4">CEO, Founder, Atty.</span>
                                 <p>Separated they live in.
                                     Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                <p class="mb-0"><a href="#" class="more dark">Learn More <span class="icon-arrow_forward"></span></a></p>
+                                <p className="mb-0"><a href="#" className="more dark">Learn More <span className="icon-arrow_forward"></span></a></p>
 
 
                         </div>
@@ -181,6 +207,110 @@ export default function Header() {
                 </div>
             </div>
             {/* <!-- End Team Section --> */}
+
+            <footer className="footer-section mt-5">
+                <div className="container relative">
+                    {/* รูปวงกลมด้านล่าง */}
+                    <div className="sofa-img ">
+                        <img src="images/Logo.jpg" alt="something" className="img-fluid" style={{ width: "300px", borderRadius: "50%"}} />
+                    </div>
+
+                    <div className="row">
+                        <div className="col-lg-8">
+                            <div className="subscription-form">
+                                <h3 className="d-flex align-items-center"><span className="me-1"><img src="images/envelope-outline.svg" alt="Image" className="img-fluid" /></span><span>Subscribe to Newsletter</span></h3>
+
+                                <form action="#" className="row g-3">
+                                    <div className="col-auto">
+                                        <input type="text" className="form-control" placeholder="Enter your name" />
+                                    </div>
+                                    <div className="col-auto">
+                                        <input type="email" className="form-control" placeholder="Enter your email" />
+                                    </div>
+                                    <div className="col-auto">
+                                        <button className="btn btn-primary">
+                                            <span className="fa fa-paper-plane"></span>
+                                        </button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row g-5 mb-5">
+                        <div className="col-lg-4">
+                            <div className="mb-4 footer-logo-wrap"><a href="#" className="footer-logo">แพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม<span>.</span></a></div>
+                            <p className="mb-4">รับทำแพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม หลังคา ผนัง กำแพง ใต้ถุน ป้องกันความร้อน รักษาความเย็น 
+                                จำหน่าย และติดตั้ง ถังฉีดโฟม มือ1 มือสอง ราคาถูก ส่งทั่วประเทศ</p>
+
+                            <ul className="list-unstyled custom-social">
+                                <li><a href="#"><span className="fa fa-brands fa-facebook-f"></span></a></li>
+                                <li><a href="#"><span className="fa fa-brands fa-twitter"></span></a></li>
+                                <li><a href="#"><span className="fa fa-brands fa-instagram"></span></a></li>
+                                <li><a href="#"><span className="fa fa-brands fa-linkedin"></span></a></li>
+                            </ul>
+                        </div>
+
+                        <div className="col-lg-8">
+                            <div className="row links-wrap">
+                                <div className="col-6 col-sm-6 col-md-3">
+                                    <ul className="list-unstyled">
+                                        <li><a href="#">เกี่ยวกับเรา</a></li>
+                                        <li><a href="#">บริการ</a></li>
+                                        <li><a href="#">ผลงาน</a></li>
+                                        <li><a href="#">ติดต่อเรา</a></li>
+                                    </ul>
+                                </div>
+
+                                <div className="col-6 col-sm-6 col-md-3">
+                                    <ul className="list-unstyled">
+                                        <li><a href="#">ช่วยเหลือ</a></li>
+                                        <li><a href="#">....</a></li>
+                                        <li><a href="#">Live chat</a></li>
+                                    </ul>
+                                </div>
+
+                                <div className="col-6 col-sm-6 col-md-3">
+                                    <ul className="list-unstyled">
+                                        <li><a href="#">งานของเรา</a></li>
+                                        <li><a href="#">ทีมงาน</a></li>
+                                        <li><a href="/Shop">สินค้า</a></li>
+                                        <li><a href="#">ข้อตกลง เงื่อนไข</a></li>
+                                    </ul>
+                                </div>
+
+                                <div className="col-6 col-sm-6 col-md-3">
+                                    <ul className="list-unstyled">
+                                        <li><a href="#">ฉีดโฟมทุ่นลอยน้ำ</a></li>
+                                        <li><a href="#">แพลอยน้ำ</a></li>
+                                        <li><a href="#">จำหน่ายถังโฟม</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="border-top copyright">
+                        <div className="row pt-4">
+                            <div className="col-lg-6">
+                                <p className="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; บริษัท ธนะบอมฐ์ คอนทรัคชั่น จำกัด <a href="#">แพลอยน้ำ.com</a><a hreff="#"></a>
+                                </p>
+                            </div>
+
+                            <div className="col-lg-6 text-center text-lg-end">
+                                <ul className="list-unstyled d-inline-flex ms-auto">
+                                    <li className="me-4"><a href="#">ทีมงาน &amp; ปรึกษาปัญหา</a></li>
+                                    <li><a href="#">เงื่อนไขและบริการ</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </footer>
         </>
     )
 }

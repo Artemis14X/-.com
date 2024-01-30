@@ -11,6 +11,9 @@ import './index.css';
 import Template from './Template';
 import Shop from './page/Shop';
 import About from './page/About';
+import Contact from './page/Contact';
+import Cart from './page/Cart';
+import Blog from './page/Blog';
 
 
 const router = createBrowserRouter([
@@ -26,6 +29,18 @@ const router = createBrowserRouter([
     path: "/About",
     element: <About />
   },
+  {
+    path: "/Contact",
+    element: <Contact />
+  },
+  {
+    path: "/Cart",
+    element: <Cart />
+  },
+  {
+    path: "/Blog",
+    element: <Blog />
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

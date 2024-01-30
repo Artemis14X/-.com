@@ -1,28 +1,28 @@
 function Footer() {
     return (
         <>
-            <footer class="footer-section">
-                <div class="container relative">
+            <footer className="footer-section">
+                <div className="container relative">
                     {/* รูปวงกลมด้านล่าง */}
-                    <div class="sofa-img">
-                        <img src="images/แพบ้าน.jpg" alt="Image" class="img-fluid" style={{ width: "300px", borderRadius: "50%"}} />
+                    <div className="sofa-img ">
+                        <img src="images/Logo.jpg" alt="something" className="img-fluid" style={{ width: "300px", borderRadius: "50%"}} />
                     </div>
 
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="subscription-form">
-                                <h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid" /></span><span>Subscribe to Newsletter</span></h3>
+                    <div className="row">
+                        <div className="col-lg-8">
+                            <div className="subscription-form">
+                                <h3 className="d-flex align-items-center"><span className="me-1"><img src="images/envelope-outline.svg" alt="Image" className="img-fluid" /></span><span>Subscribe to Newsletter</span></h3>
 
-                                <form action="#" class="row g-3">
-                                    <div class="col-auto">
-                                        <input type="text" class="form-control" placeholder="Enter your name" />
+                                <form action="#" className="row g-3">
+                                    <div className="col-auto">
+                                        <input type="text" className="form-control" placeholder="Enter your name" />
                                     </div>
-                                    <div class="col-auto">
-                                        <input type="email" class="form-control" placeholder="Enter your email" />
+                                    <div className="col-auto">
+                                        <input type="email" className="form-control" placeholder="Enter your email" />
                                     </div>
-                                    <div class="col-auto">
-                                        <button class="btn btn-primary">
-                                            <span class="fa fa-paper-plane"></span>
+                                    <div className="col-auto">
+                                        <button className="btn btn-primary">
+                                            <span className="fa fa-paper-plane"></span>
                                         </button>
                                     </div>
                                 </form>
@@ -31,23 +31,26 @@ function Footer() {
                         </div>
                     </div>
 
-                    <div class="row g-5 mb-5">
-                        <div class="col-lg-4">
-                            <div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">แพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม<span>.</span></a></div>
-                            <p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
+                    <div className="row g-5 mb-5">
+                        <div className="col-lg-4">
+                            <div className="mb-4 footer-logo-wrap"><a href="#" className="footer-logo">แพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม<span>.</span></a></div>
+                            <p className="mb-4">
+                                รับทำแพลอยน้ำ ฉีดโฟมทุ่นลอยน้ำ พ่นโฟม หลังคา ผนัง กำแพง ใต้ถุน ป้องกันความร้อน รักษาความเย็น 
+                                จำหน่าย และติดตั้ง ถังฉีดโฟม มือ1 มือสอง ราคาถูก ส่งทั่วประเทศ
+                            </p>
 
-                            <ul class="list-unstyled custom-social">
-                                <li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
-                                <li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
+                            <ul className="list-unstyled custom-social">
+                                <li><a href="#"><span className="fa fa-brands fa-facebook-f"></span></a></li>
+                                <li><a href="#"><span className="fa fa-brands fa-twitter"></span></a></li>
+                                <li><a href="#"><span className="fa fa-brands fa-instagram"></span></a></li>
+                                <li><a href="#"><span className="fa fa-brands fa-linkedin"></span></a></li>
                             </ul>
                         </div>
 
-                        <div class="col-lg-8">
-                            <div class="row links-wrap">
-                                <div class="col-6 col-sm-6 col-md-3">
-                                    <ul class="list-unstyled">
+                        <div className="col-lg-8">
+                            <div className="row links-wrap">
+                                <div className="col-6 col-sm-6 col-md-3">
+                                    <ul className="list-unstyled">
                                         <li><a href="#">เกี่ยวกับเรา</a></li>
                                         <li><a href="#">บริการ</a></li>
                                         <li><a href="#">ผลงาน</a></li>
@@ -55,25 +58,25 @@ function Footer() {
                                     </ul>
                                 </div>
 
-                                <div class="col-6 col-sm-6 col-md-3">
-                                    <ul class="list-unstyled">
+                                <div className="col-6 col-sm-6 col-md-3">
+                                    <ul className="list-unstyled">
                                         <li><a href="#">ช่วยเหลือ</a></li>
                                         <li><a href="#">....</a></li>
                                         <li><a href="#">Live chat</a></li>
                                     </ul>
                                 </div>
 
-                                <div class="col-6 col-sm-6 col-md-3">
-                                    <ul class="list-unstyled">
+                                <div className="col-6 col-sm-6 col-md-3">
+                                    <ul className="list-unstyled">
                                         <li><a href="#">งานของเรา</a></li>
                                         <li><a href="#">ทีมงาน</a></li>
-                                        <li><a href="#">สินค้า</a></li>
+                                        <li><a href="/Shop">สินค้า</a></li>
                                         <li><a href="#">ข้อตกลง เงื่อนไข</a></li>
                                     </ul>
                                 </div>
 
-                                <div class="col-6 col-sm-6 col-md-3">
-                                    <ul class="list-unstyled">
+                                <div className="col-6 col-sm-6 col-md-3">
+                                    <ul className="list-unstyled">
                                         <li><a href="#">ฉีดโฟมทุ่นลอยน้ำ</a></li>
                                         <li><a href="#">แพลอยน้ำ</a></li>
                                         <li><a href="#">จำหน่ายถังโฟม</a></li>
@@ -84,16 +87,16 @@ function Footer() {
 
                     </div>
 
-                    <div class="border-top copyright">
-                        <div class="row pt-4">
-                            <div class="col-lg-6">
-                                <p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; บริษัท ธนะบอมฐ์ คอนทรัคชั่น จำกัด <a href="#">แพลอยน้ำ.com</a><a hreff="#"></a>
+                    <div className="border-top copyright">
+                        <div className="row pt-4">
+                            <div className="col-lg-6">
+                                <p className="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; บริษัท ธนะบอมฐ์ คอนทรัคชั่น จำกัด <a href="#">แพลอยน้ำ.com</a><a hreff="#"></a>
                                 </p>
                             </div>
 
-                            <div class="col-lg-6 text-center text-lg-end">
-                                <ul class="list-unstyled d-inline-flex ms-auto">
-                                    <li class="me-4"><a href="#">ทีมงาน &amp; ปรึกษาปัญหา</a></li>
+                            <div className="col-lg-6 text-center text-lg-end">
+                                <ul className="list-unstyled d-inline-flex ms-auto">
+                                    <li className="me-4"><a href="#">ทีมงาน &amp; ปรึกษาปัญหา</a></li>
                                     <li><a href="#">เงื่อนไขและบริการ</a></li>
                                 </ul>
                             </div>
